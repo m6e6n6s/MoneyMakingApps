@@ -508,34 +508,10 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-shopkick { border-color: #f8f8f8; }
-  #shopkick { background: #f8f8f8 !important; color: #111111; }
-  #shopkick a { color: #111111; }
-  #shopkick .sectiondivider { color: #f8f8f8; }
-
-  
-  
-  
-  nav .p-ibotta { border-color: #f8f8f8; }
-  #ibotta { background: #f8f8f8 !important; color: #111111; }
-  #ibotta a { color: #111111; }
-  #ibotta .sectiondivider { color: #f8f8f8; }
-
-  
-  
-  
-  nav .p-fiverr { border-color: #f8f8f8; }
-  #fiverr { background: #f8f8f8 !important; color: #111111; }
-  #fiverr a { color: #111111; }
-  #fiverr .sectiondivider { color: #f8f8f8; }
-
-  
-  
-  
-  nav .p-smore { border-color: #f8f8f8; }
-  #smore { background: #f8f8f8 !important; color: #111111; }
-  #smore a { color: #111111; }
-  #smore .sectiondivider { color: #f8f8f8; }
+  nav .p-content { border-color: #f8f8f8; }
+  #content { background: #f8f8f8 !important; color: #111111; }
+  #content a { color: #111111; }
+  #content .sectiondivider { color: #f8f8f8; }
 
   
   
@@ -698,6 +674,7 @@ nav ul li:hover, nav ul li.active {
 
 .section:first-of-type {
     padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 
@@ -848,7 +825,7 @@ nav ul li:hover, nav ul li.active {
 	.container h4 { font-size: 18px; }
 
 
-  .section { padding:130px 0; }
+  .section { padding:50px 0; }
   .sectiondivider {
     width:200px;
     height:200px;
@@ -884,8 +861,9 @@ nav ul li:hover, nav ul li.active {
 
 @media only screen and (max-width: 768px) {
 	#intro{
-		background: url();
-		max-height: 200px;
+		background: #fff;
+		min-height: 200px;
+		background-position: right;
 
 	}
 	}

@@ -177,6 +177,7 @@ nav ul li:hover, nav ul li.active {
 
 .section:first-of-type {
     padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 
@@ -327,7 +328,7 @@ nav ul li:hover, nav ul li.active {
 	.container h4 { font-size: 18px; }
 
 
-  .section { padding:130px 0; }
+  .section { padding:50px 0; }
   .sectiondivider {
     width:200px;
     height:200px;
