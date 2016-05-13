@@ -33,6 +33,7 @@ colors:
   blue:    '#336cad'
   royal-blue:    '3348b3'
   purple: '#4533b8'
+  smore: 'url(http://smoreapp.co/wp-content/uploads/2016/04/camping-modal.jpg)'
 
 kramdown:
   auto_ids:  false

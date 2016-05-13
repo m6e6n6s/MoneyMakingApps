@@ -1,0 +1,12 @@
+#intro{
+	min-height: 436px;
+	
+}
+
+@media only screen and (max-width: 768px) {
+	#intro{
+		background: url();
+		max-height: 200px;
+
+	}
+	}

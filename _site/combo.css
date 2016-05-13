@@ -470,37 +470,37 @@ html { box-sizing: border-box; }
 .border-black { border-color: #111111 !important; }
 .text-black   { color: #111111; }
 .text-black a { color: #111111; }
-.bg-black     { background-color: #111111 !important; }
+.bg-black     { background: #111111 !important; }
 
 .border-white { border-color: #f8f8f8 !important; }
 .text-white   { color: #f8f8f8; }
 .text-white a { color: #f8f8f8; }
-.bg-white     { background-color: #f8f8f8 !important; }
+.bg-white     { background: #f8f8f8 !important; }
 
 .border-teal { border-color: #33a39c !important; }
 .text-teal   { color: #33a39c; }
 .text-teal a { color: #33a39c; }
-.bg-teal     { background-color: #33a39c !important; }
+.bg-teal     { background: #33a39c !important; }
 
 .border-light-blue { border-color: #9bcf2f !important; }
 .text-light-blue   { color: #9bcf2f; }
 .text-light-blue a { color: #9bcf2f; }
-.bg-light-blue     { background-color: #9bcf2f !important; }
+.bg-light-blue     { background: #9bcf2f !important; }
 
 .border-blue { border-color: #336cad !important; }
 .text-blue   { color: #336cad; }
 .text-blue a { color: #336cad; }
-.bg-blue     { background-color: #336cad !important; }
+.bg-blue     { background: #336cad !important; }
 
 .border-royal-blue { border-color: 3348b3 !important; }
 .text-royal-blue   { color: 3348b3; }
 .text-royal-blue a { color: 3348b3; }
-.bg-royal-blue     { background-color: 3348b3 !important; }
+.bg-royal-blue     { background: 3348b3 !important; }
 
 .border-purple { border-color: #4533b8 !important; }
 .text-purple   { color: #4533b8; }
 .text-purple a { color: #4533b8; }
-.bg-purple     { background-color: #4533b8 !important; }
+.bg-purple     { background: #4533b8 !important; }
 
 
 /* ----- per-post colors! ----- */
@@ -509,7 +509,7 @@ html { box-sizing: border-box; }
   
   
   nav .p-shopkick { border-color: #f8f8f8; }
-  #shopkick { background-color: #f8f8f8 !important; color: #111111; }
+  #shopkick { background: #f8f8f8 !important; color: #111111; }
   #shopkick a { color: #111111; }
   #shopkick .sectiondivider { color: #f8f8f8; }
 
@@ -517,7 +517,7 @@ html { box-sizing: border-box; }
   
   
   nav .p-ibotta { border-color: #f8f8f8; }
-  #ibotta { background-color: #f8f8f8 !important; color: #111111; }
+  #ibotta { background: #f8f8f8 !important; color: #111111; }
   #ibotta a { color: #111111; }
   #ibotta .sectiondivider { color: #f8f8f8; }
 
@@ -525,7 +525,7 @@ html { box-sizing: border-box; }
   
   
   nav .p-fiverr { border-color: #f8f8f8; }
-  #fiverr { background-color: #f8f8f8 !important; color: #111111; }
+  #fiverr { background: #f8f8f8 !important; color: #111111; }
   #fiverr a { color: #111111; }
   #fiverr .sectiondivider { color: #f8f8f8; }
 
@@ -533,17 +533,17 @@ html { box-sizing: border-box; }
   
   
   nav .p-smore { border-color: #f8f8f8; }
-  #smore { background-color: #f8f8f8 !important; color: #111111; }
+  #smore { background: #f8f8f8 !important; color: #111111; }
   #smore a { color: #111111; }
   #smore .sectiondivider { color: #f8f8f8; }
 
   
   
   
-  nav .p-intro { border-color: #f8f8f8; }
-  #intro { background-color: #f8f8f8 !important; color: #111111; }
+  nav .p-intro { border-color: url(img/apps-to-save-money.jpg) no-repeat 50% 0; }
+  #intro { background: url(img/apps-to-save-money.jpg) no-repeat 50% 0 !important; color: #111111; }
   #intro a { color: #111111; }
-  #intro .sectiondivider { color: #f8f8f8; }
+  #intro .sectiondivider { color: url(img/apps-to-save-money.jpg) no-repeat 50% 0; }
 
 
 
@@ -778,7 +778,7 @@ nav ul li:hover, nav ul li.active {
 .longlist { font-size: 14px !important; }
 .longlist li { margin-bottom: 3px; }
 
-
+/*----- -----*/
 
 /* ----- fork on github banner ----- */
 #forkongithub a {
@@ -877,3 +877,15 @@ nav ul li:hover, nav ul li.active {
   }
 }
 
+#intro{
+	min-height: 436px;
+	
+}
+
+@media only screen and (max-width: 768px) {
+	#intro{
+		background: url();
+		max-height: 200px;
+
+	}
+	}
