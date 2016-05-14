@@ -502,6 +502,11 @@ html { box-sizing: border-box; }
 .text-purple a { color: #4533b8; }
 .bg-purple     { background: #4533b8 !important; }
 
+.border-smore { border-color: url(http://smoreapp.co/wp-content/uploads/2016/04/camping-modal.jpg) !important; }
+.text-smore   { color: url(http://smoreapp.co/wp-content/uploads/2016/04/camping-modal.jpg); }
+.text-smore a { color: url(http://smoreapp.co/wp-content/uploads/2016/04/camping-modal.jpg); }
+.bg-smore     { background: url(http://smoreapp.co/wp-content/uploads/2016/04/camping-modal.jpg) !important; }
+
 
 /* ----- per-post colors! ----- */
 
